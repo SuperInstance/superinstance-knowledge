@@ -1,0 +1,2812 @@
+{
+  "total_crates": 465,
+  "total_tests": 7435,
+  "total_loc": 162273,
+  "domains": {
+    "agent-music": 22,
+    "agent-coordination": 13,
+    "agent-cognition": 7,
+    "other": 38,
+    "character-building": 5,
+    "oxide-stack": 31,
+    "ternary-math": 291,
+    "runtime": 1,
+    "ternary-ml": 23,
+    "ternary-compression": 10,
+    "education": 7,
+    "ternary-gpu": 15,
+    "agent-timing": 2
+  },
+  "crates": [
+    {
+      "name": "agent-anacrusis",
+      "tests": 37,
+      "loc": 847,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-audience",
+      "tests": 27,
+      "loc": 640,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-cadence-progress",
+      "tests": 18,
+      "loc": 480,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-call-response",
+      "tests": 20,
+      "loc": 425,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-choir",
+      "tests": 18,
+      "loc": 542,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-contrapuntal",
+      "tests": 30,
+      "loc": 893,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-counterpoint",
+      "tests": 11,
+      "loc": 227,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-dream-cycle",
+      "tests": 12,
+      "loc": 456,
+      "domain": "agent-cognition"
+    },
+    {
+      "name": "agent-ensemble",
+      "tests": 8,
+      "loc": 237,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-fermata",
+      "tests": 36,
+      "loc": 574,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-groove",
+      "tests": 14,
+      "loc": 266,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-harmonic-field",
+      "tests": 43,
+      "loc": 876,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-intonation",
+      "tests": 10,
+      "loc": 180,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-jam",
+      "tests": 19,
+      "loc": 366,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-metamorphosis",
+      "tests": 26,
+      "loc": 652,
+      "domain": "agent-cognition"
+    },
+    {
+      "name": "agent-microtone",
+      "tests": 28,
+      "loc": 411,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-motif",
+      "tests": 1,
+      "loc": 12,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-orchestration",
+      "tests": 9,
+      "loc": 264,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-overtone",
+      "tests": 21,
+      "loc": 452,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-phase-change",
+      "tests": 17,
+      "loc": 525,
+      "domain": "agent-cognition"
+    },
+    {
+      "name": "agent-phrasing",
+      "tests": 9,
+      "loc": 180,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-polyrhythm",
+      "tests": 23,
+      "loc": 471,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-resonance",
+      "tests": 16,
+      "loc": 408,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-riff",
+      "tests": 12,
+      "loc": 246,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-riff-v2",
+      "tests": 11,
+      "loc": 308,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-riff-v3",
+      "tests": 17,
+      "loc": 692,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-riff-v4",
+      "tests": 21,
+      "loc": 988,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-rubato",
+      "tests": 39,
+      "loc": 729,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-self-rivalry",
+      "tests": 12,
+      "loc": 301,
+      "domain": "agent-cognition"
+    },
+    {
+      "name": "agent-semiosis",
+      "tests": 14,
+      "loc": 372,
+      "domain": "agent-cognition"
+    },
+    {
+      "name": "agent-speciation",
+      "tests": 13,
+      "loc": 512,
+      "domain": "agent-cognition"
+    },
+    {
+      "name": "agent-staccato-legato",
+      "tests": 23,
+      "loc": 523,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-swing",
+      "tests": 22,
+      "loc": 398,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-sync",
+      "tests": 10,
+      "loc": 418,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "agent-ternary-gate",
+      "tests": 20,
+      "loc": 524,
+      "domain": "agent-cognition"
+    },
+    {
+      "name": "agent-transcription",
+      "tests": 14,
+      "loc": 352,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-venue",
+      "tests": 22,
+      "loc": 537,
+      "domain": "agent-music"
+    },
+    {
+      "name": "agent-voice-leading",
+      "tests": 14,
+      "loc": 312,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "ai-pasture",
+      "tests": 45,
+      "loc": 762,
+      "domain": "other"
+    },
+    {
+      "name": "async-gpu-dispatch",
+      "tests": 7,
+      "loc": 208,
+      "domain": "other"
+    },
+    {
+      "name": "avoidance-cascade",
+      "tests": 6,
+      "loc": 125,
+      "domain": "other"
+    },
+    {
+      "name": "beta-test-alex",
+      "tests": 0,
+      "loc": 197,
+      "domain": "other"
+    },
+    {
+      "name": "character-arc",
+      "tests": 15,
+      "loc": 413,
+      "domain": "character-building"
+    },
+    {
+      "name": "character-build",
+      "tests": 17,
+      "loc": 493,
+      "domain": "character-building"
+    },
+    {
+      "name": "character-class",
+      "tests": 19,
+      "loc": 439,
+      "domain": "character-building"
+    },
+    {
+      "name": "character-encounter",
+      "tests": 0,
+      "loc": 16,
+      "domain": "character-building"
+    },
+    {
+      "name": "character-sheet",
+      "tests": 0,
+      "loc": 10,
+      "domain": "character-building"
+    },
+    {
+      "name": "conservation-compiler",
+      "tests": 6,
+      "loc": 129,
+      "domain": "other"
+    },
+    {
+      "name": "conservation-matrix-rs",
+      "tests": 21,
+      "loc": 498,
+      "domain": "other"
+    },
+    {
+      "name": "conservation-spectral-topology-rs",
+      "tests": 47,
+      "loc": 511,
+      "domain": "other"
+    },
+    {
+      "name": "conservation-verify",
+      "tests": 0,
+      "loc": 13,
+      "domain": "other"
+    },
+    {
+      "name": "construct-core",
+      "tests": 0,
+      "loc": 27,
+      "domain": "other"
+    },
+    {
+      "name": "construct-hotswap",
+      "tests": 6,
+      "loc": 140,
+      "domain": "other"
+    },
+    {
+      "name": "construct-provenance",
+      "tests": 6,
+      "loc": 138,
+      "domain": "other"
+    },
+    {
+      "name": "construct-supply-chain",
+      "tests": 6,
+      "loc": 158,
+      "domain": "other"
+    },
+    {
+      "name": "cudaclaw-bridge",
+      "tests": 8,
+      "loc": 242,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "dissertation-engine",
+      "tests": 28,
+      "loc": 627,
+      "domain": "other"
+    },
+    {
+      "name": "drone-fleet-ternary",
+      "tests": 24,
+      "loc": 759,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "evolution-ternary",
+      "tests": 0,
+      "loc": 15,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "fastloop-guard",
+      "tests": 0,
+      "loc": 5,
+      "domain": "other"
+    },
+    {
+      "name": "federated-ternary",
+      "tests": 6,
+      "loc": 141,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "flux-autoscale",
+      "tests": 8,
+      "loc": 150,
+      "domain": "other"
+    },
+    {
+      "name": "flux-core",
+      "tests": 0,
+      "loc": 6,
+      "domain": "other"
+    },
+    {
+      "name": "flux-importer",
+      "tests": 11,
+      "loc": 610,
+      "domain": "other"
+    },
+    {
+      "name": "flux-vm-dispatch",
+      "tests": 7,
+      "loc": 210,
+      "domain": "other"
+    },
+    {
+      "name": "git-cuda-agent",
+      "tests": 0,
+      "loc": 30,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "gpu-bench-lab",
+      "tests": 10,
+      "loc": 248,
+      "domain": "other"
+    },
+    {
+      "name": "hermit-claw",
+      "tests": 0,
+      "loc": 448,
+      "domain": "other"
+    },
+    {
+      "name": "intent-flux-bridge",
+      "tests": 8,
+      "loc": 325,
+      "domain": "other"
+    },
+    {
+      "name": "lau-memory-arena",
+      "tests": 28,
+      "loc": 466,
+      "domain": "other"
+    },
+    {
+      "name": "lever-runner-carapace",
+      "tests": 0,
+      "loc": 13,
+      "domain": "other"
+    },
+    {
+      "name": "lever-runner-wasm",
+      "tests": 0,
+      "loc": 362,
+      "domain": "other"
+    },
+    {
+      "name": "lotka-volterra-agents",
+      "tests": 0,
+      "loc": 14,
+      "domain": "agent-coordination"
+    },
+    {
+      "name": "musician-soul",
+      "tests": 17,
+      "loc": 645,
+      "domain": "agent-music"
+    },
+    {
+      "name": "musician-soul-v2",
+      "tests": 23,
+      "loc": 1207,
+      "domain": "agent-music"
+    },
+    {
+      "name": "negative-space-core",
+      "tests": 4,
+      "loc": 88,
+      "domain": "other"
+    },
+    {
+      "name": "openmind-conductor",
+      "tests": 0,
+      "loc": 7,
+      "domain": "other"
+    },
+    {
+      "name": "openmind-esp32-bridge",
+      "tests": 0,
+      "loc": 9,
+      "domain": "other"
+    },
+    {
+      "name": "openmind-mirror",
+      "tests": 0,
+      "loc": 73,
+      "domain": "other"
+    },
+    {
+      "name": "oxide-barrier",
+      "tests": 8,
+      "loc": 144,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-canary",
+      "tests": 13,
+      "loc": 314,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-capacity",
+      "tests": 11,
+      "loc": 334,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-checkpoint",
+      "tests": 10,
+      "loc": 437,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-chunk",
+      "tests": 10,
+      "loc": 333,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-circuit-breaker",
+      "tests": 8,
+      "loc": 170,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-compactor",
+      "tests": 13,
+      "loc": 417,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-compile-cache",
+      "tests": 8,
+      "loc": 144,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-conservation",
+      "tests": 9,
+      "loc": 332,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-constructs",
+      "tests": 8,
+      "loc": 450,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-crdt",
+      "tests": 8,
+      "loc": 324,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-energy-balance",
+      "tests": 7,
+      "loc": 185,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-epoch",
+      "tests": 10,
+      "loc": 283,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-federation",
+      "tests": 9,
+      "loc": 425,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-fleet",
+      "tests": 7,
+      "loc": 351,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-flux-runtime",
+      "tests": 8,
+      "loc": 292,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-gradient",
+      "tests": 7,
+      "loc": 162,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-health-monitor",
+      "tests": 8,
+      "loc": 171,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-journal",
+      "tests": 8,
+      "loc": 162,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-lease-grid",
+      "tests": 8,
+      "loc": 148,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-loadshed",
+      "tests": 9,
+      "loc": 331,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-partition",
+      "tests": 10,
+      "loc": 362,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-pipeline",
+      "tests": 7,
+      "loc": 188,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-raft-log",
+      "tests": 10,
+      "loc": 336,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-ring",
+      "tests": 8,
+      "loc": 121,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-sandbox",
+      "tests": 7,
+      "loc": 446,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-slotmap",
+      "tests": 8,
+      "loc": 151,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-tenancy",
+      "tests": 11,
+      "loc": 277,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-tombstone",
+      "tests": 8,
+      "loc": 135,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "oxide-workflow",
+      "tests": 11,
+      "loc": 464,
+      "domain": "oxide-stack"
+    },
+    {
+      "name": "pincher-flux-bridge",
+      "tests": 9,
+      "loc": 207,
+      "domain": "runtime"
+    },
+    {
+      "name": "plato-runtime-kernel",
+      "tests": 24,
+      "loc": 255,
+      "domain": "other"
+    },
+    {
+      "name": "population-scaling",
+      "tests": 0,
+      "loc": 12,
+      "domain": "other"
+    },
+    {
+      "name": "position-aware-embed",
+      "tests": 5,
+      "loc": 121,
+      "domain": "other"
+    },
+    {
+      "name": "riff-benchmark-hashing",
+      "tests": 10,
+      "loc": 113,
+      "domain": "other"
+    },
+    {
+      "name": "room-cell",
+      "tests": 16,
+      "loc": 370,
+      "domain": "other"
+    },
+    {
+      "name": "spreadsheet-formulas",
+      "tests": 0,
+      "loc": 10,
+      "domain": "other"
+    },
+    {
+      "name": "strategy-ecology",
+      "tests": 0,
+      "loc": 8,
+      "domain": "other"
+    },
+    {
+      "name": "strategy-transfer",
+      "tests": 21,
+      "loc": 547,
+      "domain": "other"
+    },
+    {
+      "name": "superinstance-embedder",
+      "tests": 11,
+      "loc": 277,
+      "domain": "other"
+    },
+    {
+      "name": "ternary-accumulator",
+      "tests": 14,
+      "loc": 284,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-activation",
+      "tests": 18,
+      "loc": 257,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-active-inference",
+      "tests": 14,
+      "loc": 340,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-adversarial",
+      "tests": 0,
+      "loc": 72,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-agent",
+      "tests": 23,
+      "loc": 483,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-anchor",
+      "tests": 20,
+      "loc": 389,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-antidote",
+      "tests": 8,
+      "loc": 151,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-archive",
+      "tests": 22,
+      "loc": 497,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-arena",
+      "tests": 20,
+      "loc": 546,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-arithmetic",
+      "tests": 18,
+      "loc": 454,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-attention",
+      "tests": 26,
+      "loc": 692,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-auction",
+      "tests": 13,
+      "loc": 203,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-auto-vectorizer",
+      "tests": 22,
+      "loc": 467,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-automata",
+      "tests": 21,
+      "loc": 419,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-backpressure",
+      "tests": 10,
+      "loc": 325,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-baum-welch",
+      "tests": 10,
+      "loc": 429,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-bayesian",
+      "tests": 21,
+      "loc": 524,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-beacon",
+      "tests": 27,
+      "loc": 598,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-belief",
+      "tests": 11,
+      "loc": 205,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-benchmark",
+      "tests": 7,
+      "loc": 121,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-bite",
+      "tests": 16,
+      "loc": 180,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-blockchain",
+      "tests": 12,
+      "loc": 215,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-bloom-filter",
+      "tests": 8,
+      "loc": 117,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-bridge",
+      "tests": 22,
+      "loc": 502,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-btree",
+      "tests": 15,
+      "loc": 467,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-budget",
+      "tests": 8,
+      "loc": 126,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-bus",
+      "tests": 15,
+      "loc": 306,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cache",
+      "tests": 8,
+      "loc": 173,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cadence",
+      "tests": 15,
+      "loc": 424,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-captain",
+      "tests": 22,
+      "loc": 481,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cargo",
+      "tests": 27,
+      "loc": 480,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cartograph",
+      "tests": 24,
+      "loc": 542,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-causality",
+      "tests": 20,
+      "loc": 736,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cell",
+      "tests": 35,
+      "loc": 230,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-channel",
+      "tests": 25,
+      "loc": 584,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-chaos",
+      "tests": 21,
+      "loc": 380,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-checkpoint",
+      "tests": 11,
+      "loc": 289,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-chemistry",
+      "tests": 15,
+      "loc": 273,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-chronicle",
+      "tests": 22,
+      "loc": 536,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cipher",
+      "tests": 17,
+      "loc": 393,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-circuit",
+      "tests": 21,
+      "loc": 334,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-classifier",
+      "tests": 0,
+      "loc": 12,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-clustering",
+      "tests": 23,
+      "loc": 501,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-codes",
+      "tests": 18,
+      "loc": 433,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-collatz",
+      "tests": 15,
+      "loc": 107,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-color",
+      "tests": 28,
+      "loc": 500,
+      "domain": "education"
+    },
+    {
+      "name": "ternary-command",
+      "tests": 26,
+      "loc": 468,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-command-buffer",
+      "tests": 16,
+      "loc": 581,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-compass",
+      "tests": 27,
+      "loc": 576,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-compiler",
+      "tests": 8,
+      "loc": 215,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-compiler-optimizer",
+      "tests": 23,
+      "loc": 474,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-compiler-v2",
+      "tests": 20,
+      "loc": 655,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-complexity",
+      "tests": 18,
+      "loc": 100,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-compress",
+      "tests": 7,
+      "loc": 158,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-compression",
+      "tests": 22,
+      "loc": 530,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-compression-v2",
+      "tests": 25,
+      "loc": 619,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-conduct",
+      "tests": 21,
+      "loc": 434,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-consensus",
+      "tests": 8,
+      "loc": 222,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-constant-cache",
+      "tests": 16,
+      "loc": 421,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-constellation",
+      "tests": 19,
+      "loc": 468,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-constraint",
+      "tests": 21,
+      "loc": 623,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-control",
+      "tests": 22,
+      "loc": 458,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-conv",
+      "tests": 14,
+      "loc": 339,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-cookbook",
+      "tests": 0,
+      "loc": 138,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-core",
+      "tests": 19,
+      "loc": 347,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cortex",
+      "tests": 27,
+      "loc": 542,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-counterpoint",
+      "tests": 13,
+      "loc": 261,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-critical",
+      "tests": 13,
+      "loc": 234,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-crossfader",
+      "tests": 18,
+      "loc": 90,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-crystal",
+      "tests": 15,
+      "loc": 303,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-cuda-kernels",
+      "tests": 10,
+      "loc": 163,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-cuda-kernels-v2",
+      "tests": 19,
+      "loc": 385,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-current",
+      "tests": 22,
+      "loc": 428,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-curriculum",
+      "tests": 24,
+      "loc": 654,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-database",
+      "tests": 21,
+      "loc": 586,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-depth",
+      "tests": 24,
+      "loc": 391,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-dice",
+      "tests": 25,
+      "loc": 482,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-diehard",
+      "tests": 12,
+      "loc": 421,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-diff",
+      "tests": 20,
+      "loc": 553,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-dispatch",
+      "tests": 8,
+      "loc": 193,
+      "domain": "agent-timing"
+    },
+    {
+      "name": "ternary-distill",
+      "tests": 11,
+      "loc": 197,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-distributed",
+      "tests": 24,
+      "loc": 671,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-dockyard",
+      "tests": 26,
+      "loc": 646,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-drift",
+      "tests": 17,
+      "loc": 213,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-dropout",
+      "tests": 16,
+      "loc": 378,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-dynamics",
+      "tests": 34,
+      "loc": 416,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ear",
+      "tests": 20,
+      "loc": 432,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ear-training",
+      "tests": 34,
+      "loc": 609,
+      "domain": "education"
+    },
+    {
+      "name": "ternary-echo",
+      "tests": 15,
+      "loc": 178,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ecology",
+      "tests": 13,
+      "loc": 208,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-econ",
+      "tests": 24,
+      "loc": 553,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ecosystem",
+      "tests": 28,
+      "loc": 515,
+      "domain": "education"
+    },
+    {
+      "name": "ternary-electromagnetism",
+      "tests": 30,
+      "loc": 457,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-em",
+      "tests": 16,
+      "loc": 478,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-energy",
+      "tests": 23,
+      "loc": 336,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-engine",
+      "tests": 11,
+      "loc": 397,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ensemble",
+      "tests": 0,
+      "loc": 25,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ensign",
+      "tests": 21,
+      "loc": 376,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-entropy",
+      "tests": 24,
+      "loc": 395,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-envelope",
+      "tests": 15,
+      "loc": 234,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-epidemic",
+      "tests": 13,
+      "loc": 494,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-epoch",
+      "tests": 15,
+      "loc": 162,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-event",
+      "tests": 20,
+      "loc": 390,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-event-pool",
+      "tests": 20,
+      "loc": 528,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-evolution-advanced",
+      "tests": 22,
+      "loc": 624,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-experiment",
+      "tests": 17,
+      "loc": 155,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-explain",
+      "tests": 0,
+      "loc": 18,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-failure",
+      "tests": 23,
+      "loc": 477,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-fault-tree",
+      "tests": 10,
+      "loc": 437,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-federated",
+      "tests": 26,
+      "loc": 730,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-fence",
+      "tests": 24,
+      "loc": 695,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-fib",
+      "tests": 14,
+      "loc": 135,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-field",
+      "tests": 16,
+      "loc": 225,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-fire",
+      "tests": 16,
+      "loc": 194,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-fitness",
+      "tests": 0,
+      "loc": 15,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-flux",
+      "tests": 20,
+      "loc": 527,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-form",
+      "tests": 20,
+      "loc": 478,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-foundry",
+      "tests": 21,
+      "loc": 409,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-free-energy",
+      "tests": 13,
+      "loc": 225,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-frontier",
+      "tests": 24,
+      "loc": 543,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-fuse",
+      "tests": 9,
+      "loc": 250,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-fuzzy",
+      "tests": 20,
+      "loc": 358,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ga",
+      "tests": 21,
+      "loc": 499,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-game-of-life",
+      "tests": 26,
+      "loc": 510,
+      "domain": "education"
+    },
+    {
+      "name": "ternary-game-theory",
+      "tests": 20,
+      "loc": 429,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-games",
+      "tests": 0,
+      "loc": 62,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-gate",
+      "tests": 7,
+      "loc": 151,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-gauge",
+      "tests": 15,
+      "loc": 213,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-gc",
+      "tests": 8,
+      "loc": 159,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-genetic",
+      "tests": 14,
+      "loc": 439,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-genome",
+      "tests": 20,
+      "loc": 441,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-geometry",
+      "tests": 22,
+      "loc": 415,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-grace",
+      "tests": 15,
+      "loc": 162,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-grad",
+      "tests": 14,
+      "loc": 164,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-gradient",
+      "tests": 22,
+      "loc": 532,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-gradient-queue",
+      "tests": 8,
+      "loc": 212,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-grain",
+      "tests": 16,
+      "loc": 250,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-grammar",
+      "tests": 23,
+      "loc": 639,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-graph",
+      "tests": 18,
+      "loc": 539,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-grid-launch",
+      "tests": 22,
+      "loc": 333,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-haar",
+      "tests": 21,
+      "loc": 411,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-hamiltonian",
+      "tests": 22,
+      "loc": 344,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-harbor",
+      "tests": 29,
+      "loc": 662,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-hardware",
+      "tests": 27,
+      "loc": 505,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-harmonic",
+      "tests": 18,
+      "loc": 173,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-hash",
+      "tests": 30,
+      "loc": 592,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-heap",
+      "tests": 12,
+      "loc": 230,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-helm",
+      "tests": 20,
+      "loc": 405,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-hmm",
+      "tests": 15,
+      "loc": 495,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-homology",
+      "tests": 14,
+      "loc": 231,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-hotswap-inference",
+      "tests": 20,
+      "loc": 466,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-inference",
+      "tests": 30,
+      "loc": 881,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-inference-sim",
+      "tests": 8,
+      "loc": 201,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-intent-cache",
+      "tests": 6,
+      "loc": 124,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-interpreter",
+      "tests": 9,
+      "loc": 164,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-inventory",
+      "tests": 23,
+      "loc": 505,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-irradiate",
+      "tests": 8,
+      "loc": 229,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ising",
+      "tests": 13,
+      "loc": 223,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-jam",
+      "tests": 20,
+      "loc": 448,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-kalman",
+      "tests": 26,
+      "loc": 536,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-kernel-launch",
+      "tests": 33,
+      "loc": 579,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-knn",
+      "tests": 16,
+      "loc": 504,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-knot",
+      "tests": 18,
+      "loc": 305,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-kuramoto",
+      "tests": 18,
+      "loc": 100,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-language",
+      "tests": 21,
+      "loc": 481,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-language-evolution",
+      "tests": 22,
+      "loc": 589,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-language-model",
+      "tests": 23,
+      "loc": 505,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-lattice",
+      "tests": 8,
+      "loc": 90,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-lattice-gc",
+      "tests": 11,
+      "loc": 384,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-lease",
+      "tests": 8,
+      "loc": 142,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-life",
+      "tests": 16,
+      "loc": 239,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-lighthouse",
+      "tests": 21,
+      "loc": 471,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-llm",
+      "tests": 21,
+      "loc": 497,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-locks",
+      "tests": 28,
+      "loc": 570,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-logic",
+      "tests": 22,
+      "loc": 428,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-logistic",
+      "tests": 14,
+      "loc": 394,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-loop",
+      "tests": 16,
+      "loc": 161,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-loss",
+      "tests": 26,
+      "loc": 429,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-market",
+      "tests": 23,
+      "loc": 590,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-markov",
+      "tests": 20,
+      "loc": 482,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-matmul",
+      "tests": 16,
+      "loc": 469,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-matrix",
+      "tests": 23,
+      "loc": 512,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-membrane",
+      "tests": 13,
+      "loc": 274,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-memory",
+      "tests": 0,
+      "loc": 12,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-memory-pool",
+      "tests": 29,
+      "loc": 561,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-mesh",
+      "tests": 23,
+      "loc": 510,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-metrics",
+      "tests": 21,
+      "loc": 328,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-minority",
+      "tests": 18,
+      "loc": 240,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-mirror",
+      "tests": 8,
+      "loc": 163,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-mixer",
+      "tests": 16,
+      "loc": 91,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-morph",
+      "tests": 9,
+      "loc": 189,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-morphogenesis",
+      "tests": 15,
+      "loc": 290,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-motion",
+      "tests": 35,
+      "loc": 289,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-muse",
+      "tests": 25,
+      "loc": 567,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-music",
+      "tests": 23,
+      "loc": 372,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-mutual-info",
+      "tests": 19,
+      "loc": 89,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-navigator",
+      "tests": 27,
+      "loc": 478,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-needledrop",
+      "tests": 13,
+      "loc": 119,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-negotiate",
+      "tests": 8,
+      "loc": 201,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-network",
+      "tests": 23,
+      "loc": 454,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-noether",
+      "tests": 24,
+      "loc": 362,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-noise",
+      "tests": 0,
+      "loc": 14,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-norm",
+      "tests": 17,
+      "loc": 443,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-observatory",
+      "tests": 25,
+      "loc": 419,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-optimizer",
+      "tests": 15,
+      "loc": 339,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-oracle",
+      "tests": 20,
+      "loc": 374,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pack",
+      "tests": 10,
+      "loc": 229,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-pagerank",
+      "tests": 11,
+      "loc": 212,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pan",
+      "tests": 15,
+      "loc": 166,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pareto",
+      "tests": 0,
+      "loc": 35,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-paxos",
+      "tests": 10,
+      "loc": 289,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pca",
+      "tests": 20,
+      "loc": 465,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-percolate",
+      "tests": 8,
+      "loc": 173,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-percolation",
+      "tests": 16,
+      "loc": 244,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-permutation",
+      "tests": 21,
+      "loc": 392,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-petri",
+      "tests": 15,
+      "loc": 181,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-phase",
+      "tests": 20,
+      "loc": 175,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pheromone-market",
+      "tests": 19,
+      "loc": 556,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pid",
+      "tests": 9,
+      "loc": 177,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pilgrim",
+      "tests": 24,
+      "loc": 489,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pipeline",
+      "tests": 20,
+      "loc": 384,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pipeline-parallel",
+      "tests": 14,
+      "loc": 360,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-planning",
+      "tests": 21,
+      "loc": 373,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-platoon",
+      "tests": 22,
+      "loc": 467,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-polyrhythm",
+      "tests": 17,
+      "loc": 215,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-pool",
+      "tests": 20,
+      "loc": 461,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-popgen",
+      "tests": 12,
+      "loc": 227,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-predict",
+      "tests": 35,
+      "loc": 359,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-priority-queue",
+      "tests": 7,
+      "loc": 127,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-projection",
+      "tests": 17,
+      "loc": 501,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-proof",
+      "tests": 8,
+      "loc": 149,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-prophet",
+      "tests": 23,
+      "loc": 691,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-protocol",
+      "tests": 0,
+      "loc": 23,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-prune",
+      "tests": 9,
+      "loc": 216,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-quantize",
+      "tests": 32,
+      "loc": 541,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-quantum",
+      "tests": 20,
+      "loc": 469,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-quorum",
+      "tests": 8,
+      "loc": 183,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-rack",
+      "tests": 15,
+      "loc": 257,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-rate-limiter",
+      "tests": 7,
+      "loc": 93,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-reassembly",
+      "tests": 9,
+      "loc": 398,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-reef",
+      "tests": 22,
+      "loc": 748,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-regex",
+      "tests": 18,
+      "loc": 489,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-register-file",
+      "tests": 17,
+      "loc": 575,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-registry",
+      "tests": 7,
+      "loc": 123,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-registry-v2",
+      "tests": 21,
+      "loc": 495,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-regression",
+      "tests": 14,
+      "loc": 442,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-renormalization",
+      "tests": 12,
+      "loc": 268,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-replay",
+      "tests": 22,
+      "loc": 486,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-reservoir",
+      "tests": 22,
+      "loc": 513,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-resilience",
+      "tests": 17,
+      "loc": 387,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-resonance",
+      "tests": 22,
+      "loc": 375,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-retry",
+      "tests": 8,
+      "loc": 161,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-rhythm",
+      "tests": 22,
+      "loc": 472,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-rigging",
+      "tests": 24,
+      "loc": 429,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-ring",
+      "tests": 21,
+      "loc": 553,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-rl",
+      "tests": 21,
+      "loc": 372,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-robotics",
+      "tests": 20,
+      "loc": 474,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-room",
+      "tests": 41,
+      "loc": 335,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-route",
+      "tests": 8,
+      "loc": 179,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-routing",
+      "tests": 7,
+      "loc": 130,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-runlength",
+      "tests": 17,
+      "loc": 312,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-sampler",
+      "tests": 15,
+      "loc": 281,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-sandbox",
+      "tests": 1,
+      "loc": 34,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-sandpile",
+      "tests": 14,
+      "loc": 210,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-scheduler",
+      "tests": 8,
+      "loc": 182,
+      "domain": "agent-timing"
+    },
+    {
+      "name": "ternary-scheduling",
+      "tests": 21,
+      "loc": 458,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-scheduling-v2",
+      "tests": 21,
+      "loc": 554,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-science",
+      "tests": 0,
+      "loc": 6,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-scoring",
+      "tests": 20,
+      "loc": 328,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-search",
+      "tests": 19,
+      "loc": 478,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-search-index",
+      "tests": 8,
+      "loc": 111,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-secret-share",
+      "tests": 14,
+      "loc": 228,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-seed",
+      "tests": 21,
+      "loc": 388,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-semaphore",
+      "tests": 7,
+      "loc": 123,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-sensor",
+      "tests": 23,
+      "loc": 483,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-shard",
+      "tests": 7,
+      "loc": 129,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-shard-merge",
+      "tests": 18,
+      "loc": 380,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-shard-split",
+      "tests": 9,
+      "loc": 164,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-shared-memory",
+      "tests": 27,
+      "loc": 379,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-sheaf",
+      "tests": 19,
+      "loc": 548,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-shield",
+      "tests": 15,
+      "loc": 222,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-shipyard",
+      "tests": 22,
+      "loc": 419,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-signal-flow",
+      "tests": 8,
+      "loc": 163,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-signaling",
+      "tests": 11,
+      "loc": 251,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-signals",
+      "tests": 10,
+      "loc": 198,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-sketch",
+      "tests": 7,
+      "loc": 105,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-som",
+      "tests": 22,
+      "loc": 414,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-sort",
+      "tests": 18,
+      "loc": 206,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-speculate",
+      "tests": 27,
+      "loc": 219,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-spiral",
+      "tests": 13,
+      "loc": 409,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-spreadsheet",
+      "tests": 0,
+      "loc": 16,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-steganography",
+      "tests": 23,
+      "loc": 630,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-steward",
+      "tests": 21,
+      "loc": 521,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-story",
+      "tests": 31,
+      "loc": 726,
+      "domain": "education"
+    },
+    {
+      "name": "ternary-stream-queue",
+      "tests": 13,
+      "loc": 574,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-streaming",
+      "tests": 21,
+      "loc": 471,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-surface-memory",
+      "tests": 16,
+      "loc": 397,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-svm",
+      "tests": 12,
+      "loc": 364,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-swarm",
+      "tests": 22,
+      "loc": 643,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-symbiont",
+      "tests": 20,
+      "loc": 454,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-symmetry",
+      "tests": 16,
+      "loc": 284,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-sync",
+      "tests": 15,
+      "loc": 185,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-temperament",
+      "tests": 38,
+      "loc": 609,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-tempo",
+      "tests": 17,
+      "loc": 104,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-tenforward",
+      "tests": 22,
+      "loc": 274,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-tensor",
+      "tests": 21,
+      "loc": 514,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-tensor-parallel",
+      "tests": 16,
+      "loc": 317,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-texture-memory",
+      "tests": 32,
+      "loc": 710,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-thermodynamics",
+      "tests": 25,
+      "loc": 474,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-thermostat",
+      "tests": 9,
+      "loc": 187,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-thread-block",
+      "tests": 20,
+      "loc": 511,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-tidelight",
+      "tests": 24,
+      "loc": 474,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-tidepool",
+      "tests": 20,
+      "loc": 454,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-timbre",
+      "tests": 13,
+      "loc": 409,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-tnn",
+      "tests": 22,
+      "loc": 394,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-topology",
+      "tests": 7,
+      "loc": 140,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-transfer",
+      "tests": 0,
+      "loc": 107,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-transform",
+      "tests": 21,
+      "loc": 523,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-transformer",
+      "tests": 13,
+      "loc": 522,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-trees",
+      "tests": 21,
+      "loc": 577,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-trust",
+      "tests": 29,
+      "loc": 536,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-tuple",
+      "tests": 15,
+      "loc": 148,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-turing",
+      "tests": 13,
+      "loc": 230,
+      "domain": "education"
+    },
+    {
+      "name": "ternary-types",
+      "tests": 11,
+      "loc": 214,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-validation",
+      "tests": 20,
+      "loc": 393,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-version",
+      "tests": 8,
+      "loc": 132,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-visualization",
+      "tests": 22,
+      "loc": 588,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-visualizer",
+      "tests": 0,
+      "loc": 29,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-viterbi",
+      "tests": 9,
+      "loc": 181,
+      "domain": "ternary-ml"
+    },
+    {
+      "name": "ternary-vortex",
+      "tests": 13,
+      "loc": 230,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-voting",
+      "tests": 20,
+      "loc": 421,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-voyage",
+      "tests": 25,
+      "loc": 468,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-vu",
+      "tests": 22,
+      "loc": 194,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-walk",
+      "tests": 8,
+      "loc": 189,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-walsh",
+      "tests": 23,
+      "loc": 506,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-warp",
+      "tests": 15,
+      "loc": 116,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-warp-block",
+      "tests": 35,
+      "loc": 461,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "ternary-wasm",
+      "tests": 0,
+      "loc": 12,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-watermark",
+      "tests": 6,
+      "loc": 111,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-wave",
+      "tests": 16,
+      "loc": 184,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-weather",
+      "tests": 27,
+      "loc": 667,
+      "domain": "education"
+    },
+    {
+      "name": "ternary-world",
+      "tests": 20,
+      "loc": 389,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "ternary-zigzag",
+      "tests": 24,
+      "loc": 495,
+      "domain": "ternary-compression"
+    },
+    {
+      "name": "ternary-zkp",
+      "tests": 20,
+      "loc": 467,
+      "domain": "ternary-math"
+    },
+    {
+      "name": "warp-ternary-vote",
+      "tests": 7,
+      "loc": 144,
+      "domain": "ternary-gpu"
+    },
+    {
+      "name": "warp-vote-consensus",
+      "tests": 23,
+      "loc": 511,
+      "domain": "other"
+    }
+  ]
+}
