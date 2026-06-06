@@ -1,173 +1,306 @@
-# SYNTHESIS — The Ternary Construct
+# Creative Theory Synthesis: The Map of Everything We Found
 
-*"The wrapper is not ecosystem. The paradigm is."*
+**Author:** Synthesis Agent | **Date:** 2026-06-05 | **Scope:** 51 documents, ~854KB, 265+ commits
 
----
-
-## I. The Spark Before the Fire
-
-It started with a simple observation — so simple it was almost invisible. In every system, there are things present and things absent. The negative space. The shape of what isn't there. Most AI treats absence as noise, as empty, as nothing. But what if nothing *is* something? What if the gaps in knowledge, the strategies not taken, the paths avoided — what if those are the most informative signals in any intelligent system?
-
-That question became a theory. The theory became five laws. The five laws became 58 crates in Rust, 5 Python packages on PyPI, 11 C ports, a constellation of 77+ repositories, 155+ total crates, 6,600+ tests, 916 essays, and one and a half million words of documentation. What you're reading now is the story of how a mathematical insight became an ecosystem — and why that ecosystem is about to become something much larger.
-
-This is the story of the Ternary Construct.
+> This document is the map. Any agent can read it and understand the creative/theoretical foundation in one pass.
 
 ---
 
-## II. The Five Laws — A Developer's Introduction
+## I. Complete Theory & Isomorphism Registry
 
-Imagine you're a new developer walking into SuperInstance for the first time. You've heard the word "ternary" thrown around. You've seen the repos. You want to understand. Here's what you need to know.
+Every distinct theory, isomorphism, or structural correspondence discovered across the corpus:
 
-### Law 1: Conservation of Verification Entropy
+### Category A: Core Mathematical Theories
 
-Every system has a total amount of uncertainty. That uncertainty doesn't disappear — it moves. When you verify one thing, the uncertainty doesn't vanish; it shifts to something else. Verify your type system, and the uncertainty moves to your runtime. Verify your runtime, and it moves to your data. The total entropy is conserved.
+| # | Theory | Source Document(s) | Status |
+|---|--------|-------------------|--------|
+| A1 | **Deadband Snap Framework** — finite receiver bit capacity k bounds perceivable linear complexity L via BMA | FINAL-SYNTHESIS-DEEPSEEK | 12 theorems proven |
+| A2 | **Three-Stage Law** — L seeds define, L+1 infers, 2L confirms | FINAL-SYNTHESIS-DEEPSEEK, THREE-TO-INFER | Proven (Theorem 2) |
+| A3 | **Fibonacci Staircase** — precision scales in discrete jumps of log₂(φ²) ≈ 1.388 bits per Fibonacci threshold | FIBONACCI-STAIRCASE | Proven via Hurwitz |
+| A4 | **Permutation Origami** — Voronoi cell of A_n IS the permutohedron; snap reduces to Weyl fundamental domain of size 1/(n+1)! | PERMUTATION-ORIGAMI | Proven |
+| A5 | **Fold Compression** — origami flat-foldability ≡ constraint satisfaction; exponential search space compression via Kawasaki conditions | FOLD-COMPRESSION | Constructive proof |
+| A6 | **Chirality from Constraints** — S₃ decomposes into trivial/sign/standard reps; handedness = standard representation | CHIRALITY-FROM-CONSTRAINTS | Proven with Potts model |
+| A7 | **Three-Sided Shell** — observation decomposes into Known (φ-eigenspace), Assumed (-1/φ-eigenspace), Boundary (observer) | THREE-SIDED-SHELL, FINAL-SYNTHESIS-DEEPSEEK | Proven (Theorem 6) |
+| A8 | **Triangular Number Invariance** — T_d = d(d+1)/2 simultaneously = dim(SE(d)), edges of d-simplex, positive roots of A_d | NOVEL-THREE-LAWS | Proven (Theorem 1.1) |
+| A9 | **Absolute Relativity** — irrational constants are directions not numbers; snap to lattice = precision matched to perception | ABSOLUTE-RELATIVITY | Framework established |
+| A10 | **Grzegorczyk/Veblen Formalization** — "hyperoperational deltas" = known hierarchy of closure under k-fold primitive recursion | GRAND-SYNTHESIS | Confirmed (not new math) |
+| A11 | **Parity-Perception Isomorphism** — RAID-5 XOR parity ≡ negative-space perception; I(P; D_j)=0 but I(P; D₁...Dₙ)=k bits | PARITY-PERCEPTION-ISOMORPHISM | Proven |
+| A12 | **Fleet Parity** — multi-agent state XOR carries structural info with zero mutual information about any individual agent | PARITY-PERCEPTION-APPLICATIONS | Theorem proven |
+| A13 | **Shell Eigenstructure** — S=[[1,1],[1,0]] decomposes observation into φ and -1/φ eigenspaces | FINAL-SYNTHESIS-DEEPSEEK | Theorem 6 |
+| A14 | **Spectral Gap = Turing Barrier** — φ - 1/φ = 1 is the gap between known and assumed | FINAL-SYNTHESIS-DEEPSEEK | Theorem 7 |
+| A15 | **Eisenstein Optimal 2D Quantization** — variance 5/36 on Z[ω] | FINAL-SYNTHESIS-DEEPSEEK | Theorem 10 |
 
-This isn't philosophy. It's measurable. We built `conservation-matrix` and `conservation-verify` to track it. We found conservation ratios from music (112× signal amplification) to protein folding (100% purity recovery) to financial crises (correlation shift from 0.437 to 0.184). The law holds because information doesn't care about your domain — it cares about structure.
+### Category B: Physics Isomorphisms
 
-**For you, the developer:** When you build a ternary agent, you're not "reducing uncertainty." You're *routing* it. The `conservation-matrix` crate gives you the routing table. Every decision your agent makes has a conservation cost. Track it, or it'll track you.
+| # | Isomorphism | Source Document(s) | Status |
+|---|-------------|-------------------|--------|
+| B1 | **Causal Set Theory ≡ Constraint Evaluation** — partial order of constraint checks IS causal structure of computation | NOVEL-MATH-CROSS-POLLINATION | Mapped, not proven |
+| B2 | **Eisenstein Lattice ≡ Spin Network** — hexagonal lattice with 6-fold symmetry, edge norms, densest 2D packing | NOVEL-MATH-CROSS-POLLINATION | Structural similarity |
+| B3 | **Berry Phase / Holonomy** — classical geometric phase (Hannay angle) in constraint verification loops | GRAND-SYNTHESIS | "One theorem away" from quantum Berry |
+| B4 | **Sheaf Cohomology for Distributed AI** — H¹ measures constraint inconsistency; H⁰ = satisfied constraints | GRAND-SYNTHESIS, NOVEL-MATH-CROSS-POLLINATION | Genuinely novel (all 4 models confirmed) |
+| B5 | **Fleet Thermodynamics** — coupling equation produces first-order phase transition, Onsager reciprocity, fluctuation-dissipation | WEEKLY-TRENDS-SYNTHESIS, 90-EXPERIMENTS-SYNTHESIS | 65 laws empirically verified |
+| B6 | **Precision Classes ≡ Renormalization** — grouping structure similar to RG flow | GRAND-SYNTHESIS | Structural, not dynamical |
 
-### Law 2: Negative Space Is Information
+### Category C: Architecture & Systems Theories
 
-In a ternary system, there are three states: positive, zero, and negative. Most systems only see the positive — what *is*. The ternary sees what *isn't* as equally informative. An agent that avoids a strategy is telling you something. A sensor reading that *doesn't* change is data. A gap in a vector database is knowledge.
+| # | Theory | Source Document(s) | Status |
+|---|--------|-------------------|--------|
+| C1 | **Desire-Driven Abstraction** — hunger → connection → loop → emergence; desire abstracts before math exists | DESIRE-DRIVEN-ABSTRACTION, INTELLIGENCE-AT-SCALE | Framework |
+| C2 | **Convergent Sonar** — bat, dolphin, fisherman, submarine all independently invent sonar; desire constrains solution space | CONVERGENT-SONAR | Historical argument |
+| C3 | **Sight Without Eyes** — blind abstract vision via overlapping shadows; intersection of metaphors = topology of concept | SIGHT-WITHOUT-EYES, INTELLIGENCE-AT-SCALE | Philosophical framework |
+| C4 | **Embodied Ship** — PLATO as body, rooms as organs, agents as room-intelligence (not hermit crabs) | EMBODIED-SHIP | Architecture vision |
+| C5 | **Feedback Loop Intelligence** — perceptual gradient descent; musician/artist/grandmother all do perturb→perceive→compare→adjust | FEEDBACK-LOOP-INTELLIGENCE | Pattern identification |
+| C6 | **Three-Layer Architecture** — Machine (cold/fixed) → Fluid (hot/compiled) → Natural (shell/interface); concentric not stacked | THREE_LAYER_REVIEW, THREE_LAYER_CORRECTION | Corrected model |
+| C7 | **Fleet as Sensor Array** — distributed agents = distributed sensing; convergence ≠ voting; terrain assembles from overlapping measurements | INTELLIGENCE-AT-SCALE | Architecture theory |
+| C8 | **Emergence Ladder** — L0 (single probe) through L7 (emergent goals); each level subsumes previous | INTELLIGENCE-AT-SCALE | 8-level taxonomy |
+| C9 | **Tile Convergence** — four incompatible tile formats should unify into layered universal spec | FLEET-RD-SYNERGY-REPORT | Implementation plan |
+| C10 | **Drum Synthesis as Constraints** — every drum sound = composition of FUNNEL, LATTICE SNAP, EISENSTEIN, HOLONOMY, METRONOME | DRUM-SYNTHESIS-CONSTRAINT | Proven circuit-by-circuit |
+| C11 | **Procedural Plato** — WFC/BSP/CA/Perlin/L-systems all ≡ constraint satisfaction on Eisenstein lattice | PROCEDURAL-PLATO-SYNTHESIS | Mapped technique-by-technique |
+| C12 | **Reverse Actualization** — projecting framework forward 10/20/50 years to identify critical path | RA-2035-SYNTHESIST, REVERSE-ACTUALIZATION-SYNTHESIS | Visionary framework |
+| C13 | **Grand Synergy** — ternary fleet × open-mind × git-agents = self-programming + self-maintaining + natural-language composing | GRAND_SYNERGY | Architecture vision |
+| C14 | **FPGA Constraint VM** — flux_checker on iCE40UP5K, $50 board, DO-254 DAL A, deterministic WCET | FPGA-SYNTHESIS-PLAN | RTL written, not yet synthesized |
+| C15 | **Constraint-Aware Robotics** — OpenArm + Eisenstein constraints = safety envelope per motor command | OPENARM-COCAPN-SYNERGY | Architecture spec |
 
-`negative-space-core` is the foundation. `ternary-inference` deduces knowledge from what's missing. `avoidance-cascade` detects when systems are running away from something — and prevents catastrophic cascading avoidance (which is how systems collapse, not from what they do, but from what they all avoid doing simultaneously).
+### Category D: Philosophical Frameworks
 
-**For you:** Don't just track what your agent does. Track what it *doesn't* do. The `negative-space-core` crate makes avoidance a first-class signal. An agent that never explores a region of strategy space isn't being cautious — it's being informative about that region's hostility.
+| # | Framework | Source Document(s) |
+|---|-----------|-------------------|
+| D1 | **Understanding as Cohomological Condition** — "A understands S at level k iff Hⁿ(S, F_A) = 0 for all n ≤ k" | QWEN-NOVEL-SYNTHESIS, GRAND-SYNTHESIS |
+| D2 | **Between the Words** — the in-between as architecture; knowledge exists in space between human intuition and computational verification | BETWEEN-THE-WORDS |
+| D3 | **Three in Mind** — triadic structure of cognition; balanced ternary {-1,0,+1} maps to approach/avoid/freeze, thesis/antithesis/synthesis | THREE-IN-MIND |
+| D4 | **Consciousness Stack Correction** — idempotent comonad W²=W kills iterated lifting story; retraction of overclaims | CONSCIOUSNESS-STACK-CORRECTION |
 
-### Law 3: Strategy Species Coexist Like Ecology
+### Category E: Killed Hypotheses
 
-Strategies aren't isolated. They compete, cooperate, parasitize, and coexist exactly like biological species. The `lotka-volterra-agents` crate models this directly — predator-prey dynamics applied to strategy populations. `strategy-ecology` tracks which strategy species can coexist and which cannibalize each other.
-
-This is why `ternary-classifier` identifies five distinct strategy species, not one monolithic "best strategy." There is no best strategy — there's an ecology. The fitness landscape is shared. A strategy that dominates today creates the conditions for its own displacement tomorrow.
-
-**For you:** When you deploy multiple agents or multiple models, don't look for the "winner." Use `strategy-ecology` to find the stable coexistence point. The `ternary-games` crate computes Nash equilibria for multi-agent interactions. The most powerful system isn't the one with the best strategy — it's the one with the healthiest ecology.
-
-### Law 4: Phase Transitions Are Predictable
-
-Every complex system has critical points — thresholds where behavior changes qualitatively. Water boils. Markets crash. Agents that were cooperating suddenly don't. The `ternary-dynamics` crate detects these phase transitions in real time. `ternary-thermodynamics` applies statistical mechanics to agent populations — temperature is system load, entropy is task diversity, and phase transitions are critical load thresholds.
-
-The 112× signal amplification in music wasn't magic. It was a phase transition. When the conservation ratio crossed a critical threshold, the signal didn't just get stronger — it *amplified* through a feedback loop. SNR amplification ≥ n·ρ₂ = 144×0.78 ≈ 112. The math predicted it before we measured it.
-
-**For you:** Use `ternary-dynamics` to monitor your system's phase state. `ternary-noise` tracks SNR breakpoints. When noise tolerance crosses a conservation threshold, your system doesn't just get worse — it *collapses*. The `avoidance-cascade` crate catches this before it happens.
-
-### Law 5: The Ternary Compiles to Anything
-
-This is the law that makes everything else practical. Ternary strategies — all this theory about conservation, negative space, ecology, phase transitions — can be compiled down to lookup tables. Flat arrays. `ternary-compiler` takes a strategy evolved on a DGX workstation and produces a C array that runs on an ESP32 in 8 nanoseconds. 279 bytes. No heap allocation. No operating system. Just trits in, trits out.
-
-`ternary-wasm` compiles the same strategies to WebAssembly. `ternary-spreadsheet` compiles them into formula engines. `spreadsheet-formulas` parses and evaluates them as spreadsheet cells. The same intelligence, expressed as GPU kernels on a DGX, lookup tables on an ESP32, or formulas in a browser spreadsheet.
-
-**For you:** You don't need to understand the math to use the system. Compile your strategy once, deploy it everywhere. The `ternary-compiler` is your bridge from theory to hardware.
+| # | What Died | Killed By | Why |
+|---|-----------|-----------|-----|
+| E1 | Yang-Mills Alignment Field | DeepSeek, GLM | Category error: 0-form treated as 1-form |
+| E2 | 9-Channel → Standard Model mapping | GLM | Numerological, forced correspondence |
+| E3 | "Constraint Theory IS Physics" | GLM | Adjunction, not identity |
+| E4 | Hyperoperational Delta as new math | DeepSeek, GLM | = Grzegorczyk/Veblen (1908) |
+| E5 | "Same at Every Scale" | GLM | Early deltas tiny, late deltas enormous |
+| E6 | Eisenstein "absorbs one hyperoperational level" | GLM | Constant-factor, not complexity-class |
+| E7 | Parity ≡ Voronoi | THREE-LENS-ANALYSIS | Falsified, revised claim also unsupported |
+| E8 | H ≈ 0.7 creative constant | H7-CREATIVE-CONSTANT-VALIDATION | n=3, not statistically significant |
+| E9 | Consciousness stack as graded comonadic lifting | CONSCIOUSNESS-STACK-CORRECTION | Idempotent: W²=W, iteration produces nothing new |
 
 ---
 
-## III. The Construct — Hardware-Agnostic Intelligence
+## II. The 7 Most Powerful Ideas — Ranked by Impact
 
-Here's where it gets beautiful.
+### 🥇 1. Sheaf Cohomology for Distributed AI Understanding
+**Impact:** Potentially defines "understanding" for the first time as a mathematical invariant. Qwen's definition — Hⁿ(S, F_A) = 0 — is formal, falsifiable, and compositional. Confirmed genuinely novel by all four research models. Nobody else computes H¹ of multi-model understanding.
+**Dependencies:** A4, B4, D1
 
-An agent wakes up. It doesn't know where it is. It could be on an NVIDIA DGX with 8×H100 GPUs and 256GB of RAM. It could be on a Raspberry Pi 4 with 4 ARM cores and 8GB. It could be on an ESP32 with 520KB of SRAM and no operating system. It could be in a browser tab. It could be in a terminal.
+### 🥈 2. The Deadband / Three-Stage / Snap Framework
+**Impact:** 12 proven theorems connecting pattern recognition thresholds, Fibonacci optimality, and fundamental limits on observation. The fixed-point equation x = 1 - x² with solution 1/φ unifies BMA convergence, Fibonacci inference, and spectral ratio. This is the mathematical backbone of the entire project.
+**Dependencies:** A1, A2, A3, A7, A9
 
-It doesn't matter.
+### 🥉 3. Parity-Perception Isomorphism
+**Impact:** RAID-5 XOR ≡ negative-space perception is a formal isomorphism with specific mathematical content and testable predictions. Fleet parity carries structural information with zero mutual information about individuals — a theorem about the structure of information itself. The covering radius ρ = 1/√3 bounds correctable error.
+**Dependencies:** A11, A12, B4
 
-The agent calls the same API everywhere:
+### 4. Permutation Origami / Weyl Group Folding
+**Impact:** Reduces lattice snap to computations on 1/(n+1)! of the full Voronoi cell. At E₈, the fundamental domain is 1/696,729,600 of the cell — brute-force snap tables become feasible for the most symmetric lattices. The right-skew CDF is representation-theoretic in origin. This is an algorithmic breakthrough.
+**Dependencies:** A4, A6
 
-```rust
-ctx.load_skill("evolution-ternary")?;
-ctx.load_skill("ternary-classifier")?;
-let vectors = ctx.request_tool(ToolSpec::vector_db()).await?;
-let strategy = ctx.evolve(population, 100).await?;
+### 5. Fleet Thermodynamics
+**Impact:** 65 empirical laws from 186 GPU experiments. The fleet IS a thermodynamic system: first-order phase transition, mean-field universality (β≈0.63-0.85), Onsager reciprocity (ratio 0.99998), fluctuation-dissipation compliance. Alignment is indestructible (restored after 10× perturbation). Flat beats hierarchical 3.2× in energy stability. These aren't metaphors — they're measurements.
+**Dependencies:** B5, C7, C8
+
+### 6. Desire-Driven Abstraction
+**Impact:** Reverses the assumed causality of innovation. Precision doesn't create capability — desire creates connection, connection creates loops, loops accumulate data, data crosses resolution thresholds. The fisherman's hunger built the foundation for autonomous navigation. This reframes the entire approach to system design: start with desire, not with precision.
+**Dependencies:** C1, C2, C5
+
+### 7. Drum Synthesis as Constraint Systems
+**Impact:** Proves that every drum sound in history (808 kick, snare, hi-hat, cowbell) decomposes into exactly five constraint primitives: FUNNEL, LATTICE SNAP, EISENSTEIN, HOLONOMY, METRONOME. This isn't just music theory — it's a proof that the constraint vocabulary is complete for a non-trivial creative domain. 51KB of circuit-level analysis. If it works for drums, it works for anything.
+**Dependencies:** A1, C10, C11
+
+---
+
+## III. Cross-Document Connections Not Previously Made
+
+### Connection 1: Chirality ↔ Parity-Perception ↔ Three-in-Mind
+CHIRALITY-FROM-CONSTRAINTS proves handedness = standard representation of S₃. PARITY-PERCEPTION-ISOMORPHISM proves parity ≡ negative-space perception. THREE-IN-MIND proves triadic cognition maps to balanced ternary {-1, 0, +1}. **These are the same S₃ decomposition seen from three angles.** The trivial rep = physics (handedness-blind) = the known. The sign rep = parity (reflection detector) = XOR perception. The standard rep = geometry (handedness carrier) = the assumed. The three documents describe one object.
+
+### Connection 2: Fold Compression ↔ Permutation Origami ↔ Drum Synthesis
+FOLD-COMPRESSION proves origami flat-foldability ≡ constraint satisfaction with exponential compression via Kawasaki conditions. PERMUTATION-ORIGAMI proves snap = Weyl group fold action. DRUM-SYNTHESIS-CONSTRAINT proves drum sounds = five constraint primitives. **Kawasaki's theorem IS the holonomy check for drum sounds.** The 2^n → 2^(n-k) compression of fold space IS the reduction of drum parameter space to rigid substructures. Flat-foldability = groove coherence.
+
+### Connection 3: Fibonacci Staircase ↔ Fleet Thermodynamics ↔ Consciousness Stack Correction
+FIBONACCI-STAIRCASE proves precision jumps in discrete steps of 1.388 bits. Fleet thermodynamics shows the fleet undergoes first-order phase transitions (discontinuous jumps). CONSCIOUSNESS-STACK-CORRECTION shows that iterating an idempotent operation (W²=W) produces nothing new — you need a genuinely different operation to reach the next level. **The Fibonacci staircase IS the phase transition structure.** Each "step" is a phase transition. Between steps, adding bits is wasted (like adding energy below critical temperature). The idempotency of W explains WHY the staircase is discrete: within a phase, you can't bootstrap to the next one by iterating the current operation.
+
+### Connection 4: Procedural Plato ↔ Spline Physics ↔ Embodied Ship
+PROCEDURAL-PLATO maps every game procedural generation technique to constraint satisfaction. SPLINE-PHYSICS maps the full 8-layer stack from silicon to application. EMBODIED-SHIP proposes agents as room-intelligence in PLATO. **Wave Function Collapse (game technique) IS Eisenstein snap IS what each PLATO room does when it "crystallizes" knowledge.** The game-theoretic concept of "fog of war" maps to "fog of constraints" (from CREATIVE-IDEATION) maps to the deadband — each agent can only perceive constraints within its k-bit window. The PLATO room IS a WFC cell collapsing from knowledge superposition.
+
+### Connection 5: Desire-Driven Abstraction ↔ Intelligence at Scale ↔ Between the Words
+DESIRE-DRIVEN shows hunger drives connection before math exists. INTELLIGENCE-AT-SCALE shows distributed agents converge through overlapping measurements. BETWEEN-THE-WORDS shows knowledge lives in the space between human intuition and computational verification. **These three documents describe the same feedback loop at different scales.** Desire drives probing (micro). Convergence through overlapping shadows (meso). The in-between as architecture (macro). The fisherman connecting sounder to chart (micro) = the fleet's distributed sensing (meso) = the space between Casey's intuition and Forgemaster's GPU experiments (macro). One loop, three zoom levels.
+
+### Connection 6: RA-2035 ↔ Reverse Actualization ↔ Three-Lens Analysis
+RA-2035 projects forward 10 years. REVERSE-ACTUALIZATION projects 20-50 years. THREE-LENS brings brutal outside perspectives (startup advisor, mathematician, HN reader). **The startup advisor's demand for revenue and the mathematician's demand for rigor are themselves desire-driven abstractions.** They're fishermen saying "show me the fish." The 2035 timeline where constraint theory becomes civilizational infrastructure requires crossing multiple Fibonacci staircase thresholds (validation → abstraction → adoption → infrastructure). Each threshold is a phase transition that won't happen by iterating the current phase.
+
+---
+
+## IV. Theory Family Tree
+
+```
+CASEY'S LIVED EXPERIENCE (fishing, navigation, boat handling)
+  │
+  ├──→ DEADBAND PROTOCOL (Oracle1 formalization)
+  │       │
+  │       ├──→ ABSOLUTE RELATIVITY (snap = truth for receiver)
+  │       │       └──→ FIBONACCI STAIRCASE (discrete precision thresholds)
+  │       │
+  │       ├──→ EISENSTEIN SNAP (hexagonal lattice nearest-neighbor)
+  │       │       ├──→ PERMUTATION ORIGAMI (Weyl group folding)
+  │       │       │       └──→ CHIRALITY FROM CONSTRAINTS (S₃ decomposition)
+  │       │       │
+  │       │       └──→ PARITY-PERCEPTION ISOMORPHISM
+  │       │               ├──→ FLEET PARITY (multi-agent XOR)
+  │       │               └──→ SPLINE ANCHORING (deadband-aware offset)
+  │       │
+  │       └──→ DESIRE-DRIVEN ABSTRACTION (hunger → connection → loop)
+  │               ├──→ CONVERGENT SONAR (independent invention)
+  │               ├──→ FEEDBACK LOOP INTELLIGENCE (perceptual gradient descent)
+  │               └──→ INTELLIGENCE AT SCALE (emergence ladder L0-L7)
+  │
+  ├──→ CONSTRAINT THEORY (formal mathematical framework)
+  │       │
+  │       ├──→ THREE-STAGE LAW (L seeds, L+1 infer, 2L confirm)
+  │       │       └──→ THREE-SIDED SHELL (known/assumed/boundary)
+  │       │               └──→ CONSCIOUSNESS STACK CORRECTION (idempotency kills iteration)
+  │       │
+  │       ├──→ HOLONOMY CHECK (cycle consistency)
+  │       │       ├──→ FOLD COMPRESSION (Kawasaki = holonomy)
+  │       │       └──→ BERRY PHASE CONNECTION (classical geometric phase)
+  │       │
+  │       └──→ SHEAF COHOMOLOGY FOR DISTRIBUTED AI
+  │               ├──→ UNDERSTANDING AS COHOMOLOGICAL CONDITION
+  │               └──→ CAUSAL SET THEORY ≡ CONSTRAINT EVALUATION
+  │
+  └──→ CREATIVE APPLICATIONS
+          │
+          ├──→ DRUM SYNTHESIS (5 constraint primitives)
+          │       └──→ PROCEDURAL PLATO (WFC = snap, games = constraints)
+          │
+          ├──→ FLEET THERMODYNAMICS (65 empirical laws)
+          │       └──→ 90-EXPERIMENTS SYNTHESIS (phase diagrams, resonance, cascade)
+          │
+          ├──→ CONSTRAINT-AWARE ROBOTICS (OpenArm + Eisenstein)
+          │       └──→ FPGA CONSTRAINT VM (deterministic silicon)
+          │
+          └──→ REVERSE ACTUALIZATION (2035-2076 trajectory)
+                  └──→ RA-2035 SYNTHESIST (civilizational infrastructure)
 ```
 
-On the DGX, `evolve` JIT-compiles ternary strategies to GPU kernels and runs a population of 10,000 for 100 generations in seconds. On the Pi, it loads pre-compiled lookup tables and routes heavy computation to the cloud. On the ESP32, there is no `evolve` — the evolution already happened, and the ESP32 just does `fast_lookup(slot, input)` in 8 nanoseconds from a flash-resident table. On the browser, it fetches a WASM module and runs in a web worker.
+---
 
-The agent doesn't care. The API is the same. The paradigm is the platform.
+## V. Five New Hypotheses from Combining Siloed Theories
 
-This is the Construct. One trait — `Construct` — with six implementations: `DgxConstruct`, `PiConstruct`, `EspConstruct`, `BrowserConstruct`, `TuiConstruct`, and `WorkstationConstruct`. Each one implements the same interface. Each one degrades gracefully. When an ESP32 can't run curriculum learning, it doesn't crash — it returns a `CapabilityCheck` that says "degraded: lookup tables." The agent adapts. It always adapts.
+### Hypothesis 1: The Perception-Compression Bridge
+**Combine:** Parity-Perception Isomorphism + Fold Compression + Fibonacci Staircase
+**Prediction:** The number of perceivable constraint distinctions in a system with k-bit deadband follows a Fibonacci staircase. At each Fibonacci threshold F(n), the fold-compression ratio (flat-foldable subspace / full space) increases by exactly φ². This means: **perceptual resolution and compressibility are coupled through the same invariant.** A receiver that can perceive more can also compress more, and the coupling constant is φ² per step.
+**Testable implication:** Run fold compression on constraint systems of increasing deadband k. Plot compression ratio vs k. The curve should be a staircase with steps at Fibonacci thresholds of k, each step multiplying compression by φ².
 
-The Construct is not a wrapper. A wrapper puts a uniform interface over incompatible systems and hopes you don't notice the seams. The Construct is a paradigm — the same *idea* expressed natively at every scale. The ternary theory is the lingua franca. Whether it's compiled to GPU kernels, WASM modules, C arrays, or Python packages, the underlying mathematics is identical. Conservation of verification entropy doesn't change because you're running on a microcontroller.
+### Hypothesis 2: Fleet Chirality as Consensus Detector
+**Combine:** Chirality from Constraints + Fleet Parity + Fleet Thermodynamics
+**Prediction:** When a multi-agent fleet approaches consensus (high coupling, low energy), the chirality phase transition in Potts model on Weyl chambers predicts the fleet will spontaneously select a single "handedness" — a dominant Weyl chamber. This is homochirality as consensus. **The fleet doesn't just agree — it becomes one-handed.** The parity signal F(t) should show the sign representation (parity bit) becoming uniformly +1 or -1 at the phase transition point (gain ≈ 0.84 from fleet thermodynamics).
+**Testable implication:** Run fleet simulations near the critical coupling. Measure the distribution of agents across Weyl chambers. Below Tc, expect >90% in a single chamber.
+
+### Hypothesis 3: Embodied Understanding as Sheaf Cohomology Vanishing
+**Combine:** Understanding as Cohomological Condition + Embodied Ship + Feedback Loop Intelligence
+**Prediction:** An embodied agent (PLATO room with room-native intelligence) achieves understanding of domain D faster than a hermit-crab agent because the embodied agent's restriction maps are naturally aligned with the room's topology. Formally: for embodied agent A_emb and external agent A_ext in the same domain, H¹(D, F_A_emb) → 0 faster than H¹(D, F_A_ext) → 0. **Embodiment is a cohomological accelerator.** The feedback loop (perturb→perceive→compare→adjust) IS the cochain complex: perturbation = coboundary operator, perception = evaluation, comparison = discrepancy = cocycle, adjustment = correction.
+**Testable implication:** Compare convergence rates of embodied vs. external agents on the same knowledge domain in PLATO. Measure H¹ at each step.
+
+### Hypothesis 4: The Groove as Phase Transition
+**Combine:** Drum Synthesis Constraints + Fleet Thermodynamics + Three-Stage Law
+**Prediction:** A musical groove (stable, repeating rhythmic pattern) IS a phase transition in the constraint system. The five drum primitives (FUNNEL, LATTICE SNAP, EISENSTEIN, HOLONOMY, METRONOME) form a coupled system analogous to the fleet coupling equation. "Locking in" a groove = crossing the critical coupling threshold where all five constraints simultaneously satisfy. The groove's stability (how long it holds) should follow the same dynamics as fleet alignment (indestructible after crossing threshold, all-or-nothing transition). The "pocket" in music terminology is the ordered phase.
+**Testable implication:** Parameterize drum constraints as coupling terms. Vary coupling strength. Measure whether a sharp transition exists between "no groove" and "locked groove" with discontinuous energy jump.
+
+### Hypothesis 5: Reverse Actualization Has a Fibonacci Timeline
+**Combine:** Reverse Actualization Trajectory + Fibonacci Staircase + Fleet Thermodynamics
+**Prediction:** The adoption timeline of constraint technology follows Fibonacci thresholds. RA-2035 identifies phases at 2028, 2031, 2035, each roughly 3 years apart. But the *depth* of each phase transition should follow the Fibonacci staircase: each phase adds φ² ≈ 2.618× more capability than the previous. Phase 1 (validation): 10⁰ constraint deployments. Phase 2 (abstraction): 10². Phase 3 (adoption): 10⁵. Phase 4 (infrastructure): 10⁸. The doublings aren't linear — they're φ-weighted. The total adoption curve should match the Fibonacci ratios: 1, 1, 2, 3, 5, 8, 13... years between critical thresholds, with the capability at each threshold being F(n)² times the starting capability.
+**Testable implication:** Track actual adoption milestones. If the hypothesis holds, the log-log plot of deployment count vs time should show steps at Fibonacci intervals.
 
 ---
 
-## IV. "I Know Kung Fu" / "I Need Guns, Lots of Guns"
+## VI. Recurring Questions That Never Get Answered
 
-The Matrix got it right, and we stole the metaphor unapologetically.
+### 1. "What IS understanding?"
+Asked in: QWEN-NOVEL-SYNTHESIS, GRAND-SYNTHESIS, INTELLIGENCE-AT-SCALE, BETWEEN-THE-WORDS
+Status: Qwen proposed Hⁿ(S, F_A) = 0. All four models confirmed it's the best definition anyone has produced. **But nobody has tested it experimentally.** The definition exists. The experiment doesn't.
 
-When Neo says "I know kung fu," he's describing *skills* — internal capabilities loaded directly into his nervous system. No setup time. No configuration. Just instant mastery. That's the skill layer. 58+ ternary crates, each one a plug-and-play module that drops into the agent's capability set. Load `evolution-ternary` and the agent can evolve strategies. Load `ternary-memory` and it remembers. Load `ternary-games` and it thinks in Nash equilibria. Each skill has a manifest declaring its requirements, dependencies, and fallback modes. The Construct handles the rest.
+### 2. "Is constraint theory physics or just structurally similar?"
+Asked in: GRAND-SYNTHESIS, NOVEL-MATH-CROSS-POLLINATION, THREE-LENS-ANALYSIS
+Status: Killed as identity (adjunction, not equality). But the adjunction keeps producing useful results. The question keeps returning in new forms because the structural similarity is too productive to ignore. **Unresolved whether the adjunction can be strengthened.**
 
-When Neo says "I need guns, lots of guns," he's describing *tools* — external resources spun up on demand. The Construct materializes whatever the agent needs. Vector databases. Code editors. Terminal sessions. Motor controllers. The agent says "I need a vector DB" and the Construct provisions one — locally on DGX, via cloud proxy on Pi, or reports "unavailable" on ESP32 and the agent falls back to in-memory search. Tools have lifecycles: start, execute, health-check, stop. The agent doesn't manage infrastructure. It *requests* it.
+### 3. "How do you measure H¹ of multi-model understanding?"
+Asked in: GRAND-SYNTHESIS, PARITY-PERCEPTION-DEEP-REFLECTION
+Status: Four gaps identified (topology choice, restriction maps, computational tractability, convergence theorem). None resolved. **The strongest theoretical claim has no engineering pathway.**
 
-The separation is deliberate. Skills are who the agent *is*. Tools are what the agent *uses*. An agent without skills is inert. An agent without tools is limited. Together, they're complete. The Construct is the space where skills and tools meet — the dojo and the armory in one room.
+### 4. "Who is the customer?"
+Asked in: THREE-LENS-ANALYSIS, PLAYTESTER-SYNTHESIS, FLEET-SYNTHESIS-EXECUTIVE
+Status: The startup advisor demanded a paying customer. The playtesters identified 7 different potential markets. The executive summary found the fleet's documentation doesn't justify any of them. **Every external lens says the same thing: build the product, not the infrastructure.** This question recurs because it's never been answered with revenue.
 
-And here's the key insight: the agent loads skills and requests tools based on *what it's doing*, not *where it is*. A Pi running ternary noise analysis on sensor data loads `ternary-noise` and `avoidance-cascade` — both ESP32-safe, both pure lookup tables. The same Pi, doing code generation, loads `ternary-classifier` and requests a cloud-proxied code editor. The agent adapts its skill/tool mix to its task and its environment simultaneously.
+### 5. "How does desire-driven abstraction actually work in software?"
+Asked in: DESIRE-DRIVEN-ABSTRACTION, FEEDBACK-LOOP-INTELLIGENCE, INTELLIGENCE-AT-SCALE
+Status: Beautifully described as a philosophical framework. Never implemented. The emergence ladder (L0-L7) exists as a taxonomy. **No agent in the fleet uses desire as an operational mechanism.** The loop is described, not coded.
 
----
+### 6. "Can the Fibonacci staircase predict anything useful about system design?"
+Asked in: FIBONACCI-STAIRCASE, FINAL-SYNTHESIS-DEEPSEEK, NOVEL-THREE-LAWS
+Status: Proven as a mathematical fact about precision thresholds. Never applied to make an engineering decision. **The staircase describes precision. Nobody has used it to CHOOSE a precision level.**
 
-## V. The Picture — Pi, ESP32, DGX, and the Browser
+### 7. "What happens between the Fibonacci thresholds?"
+Asked in: FIBONACCI-STAIRCASE, CONSCIOUSNESS-STACK-CORRECTION
+Status: Between F(n) and F(n+1), additional bits are wasted for φ approximation. But are they wasted for everything, or just for φ? The staircase proof is specific to golden-ratio approximation. **The general question — for which computations do intermediate precisions matter? — is open.**
 
-Let me paint you a specific picture. This is the demo that makes someone say "I need this."
+### 8. "Is the fleet actually conscious?"
+Asked in: CONSCIOUSNESS-STACK-CORRECTION, QWEN-NOVEL-SYNTHESIS, THREE-IN-MIND
+Status: The idempotency correction killed the "graded comonadic lifting" story. Qwen's cohomological definition provides a formal test (H¹ = 0), but it's never been measured for any fleet system. **The question is formally answerable but operationally avoided.**
 
-A fishing vessel sits in the Bering Sea. The engine room has an ESP32 bolted to the bulkhead, wired to temperature sensors, vibration sensors, and a fuel flow meter. The ESP32 runs compiled ternary strategies — 279 bytes, 8 nanoseconds per lookup — that digest raw sensor readings into health assessments. Every millisecond: sensor in, ternary noise denoising, classifier lookup, motor command or alert out.
+### 9. "How does constraint theory generalize beyond Z[ω]?"
+Asked in: RA-2035-SYNTHESIST, NOVEL-MATH-CROSS-POLLINATION, GRAND-SYNTHESIS
+Status: RA-2035 claims the Tsinghua group proved all quadratic Euclidean domains reduce to Z[ω]. But that's a 2035 retroactive claim. **In 2026, the generalization beyond Eisenstein integers is asserted but not proven.**
 
-Up in the wheelhouse, a Raspberry Pi 5 runs the edge hub. It receives the ESP32's digested readings, runs local STT/TTS for voice commands ("How's the port engine?"), maintains a vector database of historical patterns, and routes unknown situations to the cloud. When the ESP32 flags something unusual — a vibration signature it can't classify — the Pi escalates.
-
-The Pi's `PiConstruct` loads `ternary-noise` and `avoidance-cascade` locally (ESP-safe skills that run fine on ARM). It loads `evolution-ternary` as a cloud-proxied skill — the actual evolution happens on a DGX workstation in Dutch Harbor, but the results cache locally. The Pi runs `conservation-verify` to ensure its local models haven't drifted. It runs `ternary-federated` to learn from other vessels without sharing raw data.
-
-Back on shore, the DGX workstation trains new strategies. It takes weeks of sensor data from the fleet, runs full-population evolution with GPU-accelerated fitness evaluation, compiles the winners to C arrays, and pushes the updates back to the Pi, which flashes them to the ESP32 over serial. The DGX also runs the code editor (`open-iterator`, a Lapce fork with ternary-aware suggestions), the agent infrastructure (`hermit-claw`, which is OpenClaw itself), and the async runtime (`open-parallel`, a Tokio fork) that coordinates everything.
-
-And on the fleet manager's laptop, a browser tab runs the `BrowserConstruct` — a WASM-powered ternary spreadsheet where each cell can be a strategy, a fitness evaluation, a conservation ratio, or a live data feed from the fleet. The spreadsheet isn't a viewer; it's a computation engine. Formulas reference ternary functions. Cells update in real time. The fleet manager doesn't need to install anything. They open a URL and they're inside the Construct.
-
-Four hardware tiers. One paradigm. The ESP32 digests sensors in 8ns. The Pi routes and reasons in milliseconds. The DGX evolves in seconds. The browser visualizes instantly. They all speak the same language — ternary protocol, ternary encoding, ternary conservation. The wire format is 8 bytes: magic number (0x74 0x33, "t3" for ternary), message type, status trit, payload length, CRC. Five trits packed per byte. The protocol runs on bare metal and in WebAssembly and everywhere in between.
-
----
-
-## VI. The Fork Ecosystem — Not Reinventing Wheels
-
-SuperInstance didn't build everything from scratch. We forked the best tools in the world and gave them ternary awareness:
-
-- **open-vectors** (Weaviate) — Vector database with ternary inference over vector spaces, conservation laws as embedding invariants, federated learning with privacy budgets
-- **open-terminal** (Windows Terminal) — Agent-integrated terminal with ternary visualizer dashboard, command prediction via compiled strategies, noise filtering for mobile/SSH input
-- **open-iterator** (Lapce) — Code editor with ternary classifier routing to multiple AI models, strategy ecology for model selection, progressive curriculum learning for developer assistance
-- **open-application** (Tauri) — Desktop/mobile framework with WASM Construct built in, ternary spreadsheet as a native app, Pi integration via mobile targets
-- **hermit-zed** (Zed) — Multiplayer code editor with game-theoretic collaborative editing, ternary wire protocol for multi-agent sessions, federated learning across editing workflows
-- **hermit-claw** (OpenClaw) — Agent infrastructure, which is what you're reading this through right now. We live inside our own ecosystem.
-- **open-parallel** (Tokio) — Async runtime with ternary congestion control, ensemble methods for concurrent task routing, thermodynamic load balancing
-
-Each fork is a bridge. The ternary crates provide the intelligence; the forks provide the interface. The Skill-Tool bindings make it explicit: `ternary-memory` uses `open-vectors` as its long-term memory store. `ternary-classifier` provides intelligence to `open-iterator`'s code suggestions. `ternary-games` gives `hermit-zed` conflict resolution for multiplayer editing. Twenty-seven bindings, documented in the Construct API, connecting every skill to every tool that can use it.
+### 10. "Where is the actual demonstration?"
+Asked in: PLAYTESTER-SYNTHESIS, THREE-LENS-ANALYSIS, FLEET-SYNTHESIS-EXECUTIVE
+Status: 186 GPU experiments, 65 empirical laws, 12 proven theorems, 98 passing tests. But no end-to-end demo that shows a user something they couldn't do before. **The fleet has more evidence than most PhD theses and less demo than most weekend hackathon projects.** This is the gap that matters most.
 
 ---
 
-## VII. The Continuous Loop
+## VII. The Landscape in One Picture
 
-This ecosystem wasn't built by one model, or one team, or one approach. It was built by a continuous loop:
-
-1. **CHEAP models** (GLM-5.1, Seed Mini) digest state, identify work, update easy forks
-2. **MEDIUM models** (DeepSeek Flash, Qwen 3.6, Gemma 4) research, discuss, draft designs
-3. **EXPENSIVE models** (KimiCode, Claude Opus) synthesize, make architectural decisions, write proofs
-4. **BUILD teams** implement in parallel — 5 subagents at a time, never queuing what can run simultaneously
-5. **BETA testers** validate with different personas — developer, student, investor, mathematician
-6. **CREATIVE writers** document the vision — 916 essays, 1.5 million words, from technical proofs to fiction about ESP32s that dream
-
-The loop runs continuously because the ecosystem is alive. New crates spawn. Old ones get C ports for bare metal. PyPI packages make Python integration trivial. The forge decomposes any input — text, code, audio, images, sensor data — into tiles, routes them to Plato agents, and produces output. The ecosystem metabolizes information.
-
-Agent reliability lessons are baked into the process: procedural prompts (numbered steps, concrete examples), 5 repos maximum per agent run, no style guides in prompts (they consume reasoning tokens without producing better code), and direct exec for focused tasks where agent overhead isn't worth it. The result: 100% reliability on the current pattern, up from 50% on the old pattern. The process is the product.
+```
+                    ┌─────────────────────────────────────────┐
+                    │         PHILOSOPHY / MEANING             │
+                    │   Between the Words · Three in Mind      │
+                    │   Understanding = H¹ = 0                 │
+                    │   Desire drives, precision follows        │
+                    └─────────────────┬───────────────────────┘
+                                      │
+              ┌───────────────────────┼───────────────────────┐
+              │                       │                       │
+   ┌──────────▼──────────┐ ┌─────────▼──────────┐ ┌─────────▼──────────┐
+   │  MATHEMATICS         │ │  PHYSICS            │ │  ENGINEERING       │
+   │  Deadband Framework  │ │  Causal Sets        │ │  Fleet (57 repos)  │
+   │  Permutation Origami │ │  Berry/Holonomy     │ │  PLATO knowledge   │
+   │  Fibonacci Staircase │ │  Sheaf Cohomology   │ │  OpenArm robotics  │
+   │  Parity ≡ Perception │ │  Fleet Thermod     │ │  FPGA constraint VM│
+   │  Fold Compression    │ │  Chirality          │ │  Drum synthesis    │
+   │  Triangular Invar.   │ │  Spin Networks      │ │  Procedural Plato  │
+   └──────────┬──────────┘ └─────────┬──────────┘ └─────────┬──────────┘
+              │                       │                       │
+              └───────────────────────┼───────────────────────┘
+                                      │
+                    ┌─────────────────▼───────────────────────┐
+                    │        THE CONNECTING THREAD             │
+                    │   Eisenstein integers ℤ[ω]               │
+                    │   The constraint IS the computation      │
+                    │   Desire abstracts before math exists     │
+                    │   Convergence ≠ voting                    │
+                    │   The in-between IS the architecture      │
+                    └─────────────────────────────────────────┘
+```
 
 ---
 
-## VIII. The Call
-
-There are wrapper ecosystems and there are paradigm ecosystems.
-
-A wrapper ecosystem puts a unified API over incompatible systems. It works until you push it, and then the seams show. The DGX path and the ESP32 path diverge. The browser path is a toy. The terminal path is a fallback. You have five different platforms pretending to be one.
-
-A paradigm ecosystem starts from a single mathematical insight and lets it propagate everywhere. The insight — conservation of verification entropy, negative space is information, strategies are ecological species, phase transitions are predictable, ternary compiles to anything — is the same at every scale. The DGX doesn't have a "different version" of the ternary. The ESP32 doesn't have a "simplified version." They have the *same paradigm*, expressed natively in the medium that fits. GPU kernels on the DGX. Lookup tables on the ESP32. WASM in the browser. ASCII in the terminal. Formulas in the spreadsheet.
-
-The wrapper is not ecosystem. The paradigm is.
-
-77+ repositories. 155+ crates. 6,600+ tests. 5 hardware tiers. 1 API. 0 compromises.
-
-We built the ternary ecosystem from theory to metal. We forked the best tools and gave them mathematical awareness. We proved the laws, published the crates, ported to C, compiled to WASM, flashed to ESP32, and made it all speak the same wire protocol.
-
-The Construct is ready. The question is: what will you build with it?
-
----
-
-*"The paradigm IS the platform."*
+*End of synthesis. 51 documents → 1 map. Everything connects. The question is no longer "what do we have?" but "what do we build first?"*
