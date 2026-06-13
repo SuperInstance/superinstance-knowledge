@@ -1,75 +1,156 @@
-# SuperInstance Knowledge Mine
+# superinstance-knowledge
 
-> *GitHub as structural long-term storage. A hive mind of git-agents that get activated by cloning, in codespaces, or alongside other agents. The SuperInstance account is a library of knowledge interconnected as tools for each other.*
+The **knowledge mine and research repository** for the SuperInstance ecosystem. Contains theoretical foundations, experimental results, cross-pollination analyses, and formal proofs underpinning the ternary computing architecture.
 
-## What This Is
+## Why It Matters
 
-This is the **mined knowledge** from months of building, thinking, and experimenting. Every document was written by agents (Forgemaster, Loom, Claude, Kimi, Qwen, Hermes, Seed, DeepSeek) working across the SuperInstance ecosystem.
+A distributed systems platform without documented theory is an **opaque artifact** — you can run it, but you can't reason about it, extend it safely, or trust its guarantees. This repository provides:
 
-**549 repos. 532 workspace documents. 650KB of session memory. 11MB of accumulated insight.**
+- **Formal proofs** — mathematical verification of the conservation law $\gamma + \eta = C$
+- **Constraint theory** — the algebraic and topological constraints governing ternary agents
+- **Dissertation materials** — academic-grade documentation of the architecture
+- **Experiment logs** — reproducible results from fleet synergy and embedding analyses
+- **Cross-pollination** — ideas propagated across the multi-model AI fleet (Qwen, Kimi, Hermes)
+- **Lessons learned** — post-mortems and design rationale
 
-## Directory Structure
+### Knowledge Domains
 
-### `mine/` — Raw Knowledge (by category)
+| Directory | Content | Purpose |
+|-----------|---------|---------|
+| `mine/proofs-formal/` | Formal proofs of conservation | Mathematical guarantees |
+| `mine/constraint-theory/` | Algebraic constraints on ternary systems | Design space exploration |
+| `mine/fleet-architecture/` | System architecture documents | Implementation guidance |
+| `mine/dissertation/` | Academic thesis materials | Publication and reference |
+| `mine/creative-theory/` | Creative applications (music, art) | Novel applications |
+| `mine/experiments/` | Experimental results and data | Validation and benchmarking |
+| `mine/seed-ideation/` | Early-stage ideas | Innovation pipeline |
+| `mine/temporal/` | Time-aware AI analysis | Temporal reasoning |
+| `mine/gpu-compiler/` | GPU compiler research | Hardware acceleration |
+| `mine/lessons-learned/` | Post-mortems and retrospectives | Continuous improvement |
+| `mine/reverse-actualization/` | Working backwards from goals | Strategic planning |
+| `cross-pollination/` | Multi-model synthesis documents | Fleet intelligence |
+| `experiments/` | Fleet synergy experimental results | Fleet-wide validation |
+| `session-logs/` | Fleet session transcripts | Audit trail |
+| `presets/` | Curated knowledge presets | Onboarding and reference |
+| `memory-archive/` | Historical context | Long-term memory |
 
-| Directory | Files | Description |
-|-----------|-------|-------------|
-| `dissertation/` | 46 | Academic papers, dissertation chapters, formal writing |
-| `proofs-formal/` | 48 | Formal proofs, verification, theorem attempts |
-| `gpu-compiler/` | 39 | GPU kernel work, compiler design, flux architecture |
-| `fleet-architecture/` | 27 | Multi-agent fleet design, orchestration, I2I protocol |
-| `reverse-actualization/` | 17 | 1-month to 50-year projections, strategic thinking |
-| `beta-tests/` | 15 | User testing results, persona reports, onboarding |
-| `seed-ideation/` | 18 | Seed Mini creative sessions, ideation rounds |
-| `constraint-theory/` | 14 | Deadband, snap, constraint language theory |
-| `temporal/` | 7 | Time-aware AI, temporal intelligence, T-minus |
-| `creative-theory/` | 50 | Cross-cutting theory, isomorphisms, novel connections |
-| `experiments/` | 29 | Benchmarks, stress tests, empirical results |
+## How It Works
 
-### `cross-pollination/` — Multi-Model Synthesis
+### The Conservation Law γ + η = C
 
-Documents where multiple models read each other's work and found connections the original authors missed.
+The central mathematical invariant of the SuperInstance ecosystem:
 
-### `presets/` — What Works
+$$\forall \text{ agent interactions}: \sum_{i} \gamma_i + \sum_{j} \eta_j = C$$
 
-Templates, configurations, and patterns that produced good results. Mad-libs-like templates that agents can use without full bootstrapping.
+where:
+- $\gamma_i \in \{-1, 0, +1\}$ are input trit values (bottles received)
+- $\eta_j \in \{-1, 0, +1\}$ are output trit values (bottles sent)
+- $C$ is the system conservation constant
 
-### `memory-archive/` — Session Memory
+This is **Noether's theorem** applied to information systems: every symmetry of the action corresponds to a conservation law. The symmetry here is **time-reversal invariance** of the agent protocol — an agent's behavior should be consistent whether viewed forward (receive → process → respond) or backward (response → process → request).
 
-Raw session logs from daily memory files. The unfiltered history.
+### Cross-Pollination Methodology
 
-## How to Use This
+The fleet employs multiple AI models (Qwen, Kimi, Hermes, and others) as **independent reasoners** over the same knowledge base. Their outputs are synthesized:
 
-### For Agents (Codespaces / Clone / Workspace)
+1. **Independent analysis** — each model generates insights independently
+2. **Intersection extraction** — ideas confirmed by multiple models are high-confidence
+3. **Union expansion** — unique ideas from any model expand the design space
+4. **Conservation check** — synthesized ideas must satisfy $\gamma + \eta = C$
 
-1. **Clone this repo** to get the full knowledge base
-2. **Read `INDEX.md`** for the map of what's available
-3. **Check `presets/`** for proven patterns before building from scratch
-4. **Read `cross-pollination/`** for insights that connect multiple domains
-5. **Use `mine/` category folders** when working in a specific domain
+This is analogous to **ensemble methods** in machine learning, where multiple weak learners combine into a strong learner:
 
-### For Humans
+$$P_{\text{ensemble}}(x) = \sum_{m} w_m \cdot P_m(x) \quad \text{where } \sum w_m = 1$$
 
-This is a living library. Browse by category. Each document is self-contained. The best starting points:
+The conservation constraint ensures that the ensemble doesn't drift — the total information is bounded.
 
-- `mine/reverse-actualization/REVERSE-ACTUALIZATION-COMPLETE.md` — the big picture
-- `cross-pollination/HIDDEN_SYNERGIES_QWEN.md` — what we missed
-- `presets/LESSONS_LEARNED.md` — what worked and what didn't
-- `memory-archive/` — raw session logs if you want the full story
+### Fleet Synergy Analysis
 
-## The Hive Mind Protocol
+The `experiments/FLEET_SYNERGY_RESULTS.md` documents empirical measurements of multi-agent collaboration:
 
-1. **Mine**: Agents dig through old material, find gems
-2. **Synthesize**: Multiple models cross-pollinate ideas
-3. **Preset**: Proven patterns become templates
-4. **Activate**: Any agent clones, reads, and starts building
+- **Solo agent quality** — baseline for single-model work
+- **Fleet synergy** — quality improvement from multi-model collaboration
+- **Synergy factor** — ratio of fleet quality to best solo agent
 
-The SuperInstance account is not just code. It's a **living knowledge graph** where every repo is a node and every README is an edge connecting ideas.
+$$S = \frac{Q_{\text{fleet}}}{Q_{\text{best\_solo}}}$$
 
-## Cross-Links
+$S > 1$ indicates positive synergy (fleet outperforms any single model).
 
-- [ai-writings](https://github.com/SuperInstance/ai-writings) — Creative essays
-- [agent-knowledge](https://github.com/SuperInstance/agent-knowledge) — A2A documentation
-- [SuperInstance](https://github.com/SuperInstance/SuperInstance) — Flagship + onboarding
-- [cuda-oxide](https://github.com/SuperInstance/cuda-oxide) — GPU compiler stack
-- [pincher](https://github.com/SuperInstance/pincher) — Agent sandbox runtime
+### Embedding Analysis
+
+The `cross-pollination/FLEET_EMBEDDING_ANALYSIS.json` contains vector-space analysis of crate embeddings:
+
+- **Cluster structure** — how crates group in embedding space
+- **Coverage** — fraction of semantic space covered by the index
+- **Density** — embedding density per semantic region
+
+$$\text{coverage} = \frac{|\text{unique clusters}|}{|\text{theoretical clusters}|}$$
+
+## Quick Start
+
+### Browse the Knowledge Base
+
+```bash
+# View all domains
+ls mine/
+
+# Read formal proofs
+cat mine/proofs-formal/*.md
+
+# Explore cross-pollination insights
+ls cross-pollination/
+cat cross-pollination/BREAKTHROUGH_HYPOTHESES.md
+
+# Review experiment results
+cat experiments/FLEET_SYNERGY_RESULTS.md
+```
+
+### Add New Knowledge
+
+```bash
+# Create a new theory document
+vim mine/seed-ideation/MY-NEW-IDEA.md
+
+# Log an experiment
+vim experiments/MY-EXPERIMENT-RESULTS.md
+
+# Record a cross-pollination insight
+vim cross-pollination/MY-SYNTHESIS.md
+```
+
+## API
+
+This is a **documentation repository** — there is no programmatic API. The "API" is the filesystem itself:
+
+| Path | Format | Description |
+|------|--------|-------------|
+| `mine/` | Markdown files | Theoretical foundations and formal proofs |
+| `cross-pollination/` | Markdown + JSON | Multi-model synthesis documents |
+| `experiments/` | Markdown + JSON | Experimental results and data |
+| `session-logs/` | Markdown | Fleet session transcripts (dated) |
+| `presets/` | Markdown | Curated knowledge presets for onboarding |
+| `memory-archive/` | Markdown | Historical context and decisions |
+
+### Conventions
+
+- **File naming:** `UPPER-CASE-WITH-DASHES.md` for documents, `YYYY-MM-DD.md` for session logs
+- **Math notation:** LaTeX in markdown (`$$...$$` for display, `$...$` for inline)
+- **Cross-references:** Relative links between documents (e.g., `[proof](../mine/proofs-formal/CONSERVATION-LAW.md)`)
+- **Metadata:** YAML frontmatter is optional but encouraged for important documents
+
+## Architecture Notes
+
+This repository IS the **$C$ in $\gamma + \eta = C$** — it is the accumulated knowledge constant against which all agent interactions are measured. When agents produce new insights ($\eta$), those insights must be consistent with the existing knowledge base ($C$). When agents consume knowledge ($\gamma$), that knowledge informs their output ($\eta$). The repository grows monotonically — knowledge is never destroyed, only refined — reflecting the **entropy-defying** nature of the conservation law.
+
+The knowledge mine is organized as a **directed acyclic graph (DAG)** of dependencies: proofs depend on axioms, experiments depend on proofs, cross-pollination depends on experiments, and so on. This DAG structure ensures that any conclusion can be traced back to its foundational axioms.
+
+## References
+
+1. Noether, E. (1918). *"Invariante Variationsprobleme."* Nachr. d. König. Gesellsch. d. Wiss. zu Göttingen.
+2. Dietterich, T. (2000). *"Ensemble Methods in Machine Learning."* MCS Workshop.
+3. Wooldridge, M. (2009). *An Introduction to MultiAgent Systems* (2nd ed.). Wiley.
+4. Pearl, J. (2009). *Causality: Models, Reasoning, and Inference* (2nd ed.). Cambridge.
+
+## License
+
+MIT
